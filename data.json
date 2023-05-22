@@ -1,0 +1,173 @@
+[
+    {
+        "image" : "./images/pic9.jpg",
+        "title" : "Nike",
+        "detPrice" : "699.99 $",
+        "curPrice" : "559.89 $"
+    },
+    {
+        "image" : "./images/pic12.jpg",
+        "title" : "Nike",
+        "detPrice" : "789.99 $",
+        "curPrice" : "605 $"
+    },
+    {
+        "image" : "./images/pic15.jpg",
+        "title" : "Nike",
+        "detPrice" : "800 $",
+        "curPrice" : "699.99 $"
+    },
+    {
+        "image" : "./images/pic3.jpg",
+        "title" : "Nike",
+        "detPrice" : "1099 $",
+        "curPrice" : "999.99 $"
+    },
+    {
+        "image" : "./images/pic5.jpg",
+        "title" : "Nike",
+        "detPrice" : "299.99 $",
+        "curPrice" : "149.99 $"
+    },
+    {
+        "image" : "./images/pic6.jpg",
+        "title" : "Nike",
+        "detPrice" : "899 $",
+        "curPrice" : "700.99 $"
+    },
+    {
+        "image" : "./images/pic7.jpg",
+        "title" : "Nike",
+        "detPrice" : "399.99 $",
+        "curPrice" : "289 $"
+    },
+
+
+
+
+
+
+
+    {
+        "image" : "./images/pic8.jpg",
+        "title" : "Puma",
+        "detPrice" : "899 $",
+        "curPrice" : "698.99 $"
+    }
+    ,
+    {
+        "image" : "./images/pic9.jpg",
+        "title" : "Puma",
+        "detPrice" : "789 $",
+        "curPrice" : "600.99 $"
+    }
+    ,
+    {
+        "image" : "./images/pic9.jpg",
+        "title" : "Puma",
+        "detPrice" : "786 $",
+        "curPrice" : "699 $"
+    }
+    ,
+    {
+        "image" : "./images/pic9.jpg",
+        "title" : "Puma",
+        "detPrice" : "100 $",
+        "curPrice" : "99.99 $"
+    }
+    ,
+    {
+        "image" : "./images/pic9.jpg",
+        "title" : "Puma",
+        "detPrice" : "600 $",
+        "curPrice" : "510 $"
+    }
+    ,
+    {
+        "image" : "./images/pic9.jpg",
+        "title" : "Puma",
+        "detPrice" : "399.99 $",
+        "curPrice" : "200 $"
+    }
+
+
+
+    ,
+    {
+        "image" : "./images/newBalance1.jpg",
+        "title" : "New Balance",
+        "detPrice" : "399.99 $",
+        "curPrice" : "200 $"
+    }
+    ,
+    {
+        "image" : "./images/newBalance6.jpg",
+        "title" : "New Balance",
+        "detPrice" : "399.99 $",
+        "curPrice" : "200 $"
+    }
+    ,
+    {
+        "image" : "./images/newBalance9.jpg",
+        "title" : "New Balance",
+        "detPrice" : "399.99 $",
+        "curPrice" : "200 $"
+    }
+    ,
+    {
+        "image" : "./images/newBalance12.jpg",
+        "title" : "New Balance",
+        "detPrice" : "399.99 $",
+        "curPrice" : "200 $"
+    }
+    ,
+    {
+        "image" : "./images/newBalance15.jpg",
+        "title" : "New Balance",
+        "detPrice" : "399.99 $",
+        "curPrice" : "200 $"
+    }
+   
+
+
+
+
+    ,
+    {
+        "image" : "./images/adidas18.jpg",
+        "title" : "Adidas",
+        "detPrice" : "399.99 $",
+        "curPrice" : "200 $"
+    }
+    ,
+    {
+        "image" : "./images/adidas21.jpg",
+        "title" : "Adidas",
+        "detPrice" : "399.99 $",
+        "curPrice" : "200 $"
+    }
+    ,
+
+    {
+        "image" : "./images/adidas14.jpg",
+        "title" : "Adidas",
+        "detPrice" : "399.99 $",
+        "curPrice" : "200 $"
+    }
+    ,
+    {
+        "image" : "./images/adidas12.jpg",
+        "title" : "Adidas",
+        "detPrice" : "399.99 $",
+        "curPrice" : "200 $"
+    }
+    ,
+    {
+        "image" : "./images/adidas15.jpg",
+        "title" : "Adidas",
+        "detPrice" : "399.99 $",
+        "curPrice" : "200 $"
+    }
+  
+    
+]

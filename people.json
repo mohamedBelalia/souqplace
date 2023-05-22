@@ -1,0 +1,55 @@
+[
+    {    
+        "img" : "people/p1.jpg",
+        "name" : "Alex Thompson",
+        "Review" :  "I recently purchased a pair of running shoes from this brand, and I'm thrilled with my choice. The shoes are incredibly comfortable, providing excellent support and cushioning. They have significantly improved my running experience."
+    }
+    ,{    
+        "img" : "people/p1.jpg",
+        "name" : "Emily Anderson",
+        "Review" : ""
+    }
+    ,{    
+        "img" : "people/p1.jpg",
+        "name" : "James Rodriguez",
+        "Review" : ""
+    }
+    ,{    
+        "img" : "people/p1.jpg",
+        "name" : "Sarah Martinez",
+        "Review" : ""
+    }
+    ,{    
+        "img" : "people/p1.jpg",
+        "name" : "Daniel Scott",
+        "Review" :""
+    }
+    ,{    
+        "img" : "people/p1.jpg",
+        "name" : "Olivia Davis",
+        "Review" : ""
+    }
+    ,{    
+        "img" : "people/p1.jpg",
+        "name" : "Michael Johnson",
+        "Review" :"These sneakers are perfect for my everyday wear. They have a sleek design and are incredibly comfortable. The cushioning provides a plush feel, and they are great for walking or running errands."
+    },
+    {    
+        "img" : "people/p1.jpg",
+        "name" : "Sophia Thompson",
+        "Review" :"I recently bought a pair of these sandals, and they have become my absolute favorite. They are not only stylish but also incredibly comfortable. The cushioned sole makes them perfect for long walks, and they go well with various outfits."
+    }
+    ,
+    {    
+        "img" : "people/p1.jpg",
+        "name" : "Ethan Davis",
+        "Review" : "I've been using these work boots for months now, and they have held up exceptionally well. They are sturdy, provide excellent protection, and have a slip-resistant sole. These boots have become my trusted companion for demanding work environments."
+    }
+    ,
+    {    
+        "img" : "people/p1.jpg",
+        "name" : "Ava Roberts",
+        "Review" : "I adore these ballet flats! They are elegant, chic, and so comfortable to wear. The soft, flexible material and the cushioned insole make them a joy to walk in. I receive compliments every time I wear them."
+    }
+    
+]

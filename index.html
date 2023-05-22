@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="#">
+  <title>souqplace</title>
+</head>
+<body>
+
+
+
+  <!-- The Header -->
+  <header>
+    <!-- Button trigger modal -->
+
+
+<div class="register">
+
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          
+          
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          
+          
+          <div class="modal-body">
+            <div>
+              <h1>Hello There !</h1>
+              <p>welcome back</p>
+            </div>
+            <div>
+              <div class="inp">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+              </div>
+              <div class="inp">
+                <label for="password">Password</label>
+                <input type="password" id="password">
+              </div>
+              <div class="my-btnEE">
+                <button>Sing in</button>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="modal-footer">
+            <p>New member ?</p>
+            <button class="btn sing-btn" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Sing Up</button>
+          </div>
+        
+        
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+
+          <div class="modal-body">
+            <div>
+              <h1>Welcome !</h1>
+            </div>
+            <div>
+              <div class="inp">
+                <label for="name">Name</label>
+                <input type="text" id="name">
+              </div>
+              <div class="inp">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+              </div>
+              <div class="inp">
+                <label for="password">Password</label>
+                <input type="password" id="password">
+              </div>
+              <div class="my-btnEE">
+                <button>Sing up</button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="modal-footer">
+            <p>Already a member ?</p>
+            <button class="btn sing-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Sing In</button>
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+
+<div class="menu">
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">sou<span>qp</span>lace</h1>
+        <i class="fa-solid fa-x"  type="button"  data-bs-dismiss="modal" aria-label="Close"></i>
+        
+      </div>
+
+
+      <div class="modal-body">
+        <ul>
+          <li><i class="fa-solid fa-house"></i><a href="#landing">Home</a></li>
+          <li><i class="fa-solid fa-shop"></i><a href="#section-1">Advantages</a></li>
+          <li><i class="fa-solid fa-money-check-dollar"></i><a href="#brands-section">Products</a></li>
+          <li><i class="fa-solid fa-address-book"></i><a href="#reviews">Reviews</a></li>
+          <li><i class="fa-solid fa-eject"></i><a href="#footer">Contact</a></li>
+        </ul>
+      </div>
+
+
+      <div class="modal-footer">
+        <div class="icons pe-5">
+          <i class="fa-solid fa-user "  data-bs-target="#exampleModalToggle" data-bs-toggle="modal"></i>
+          <i class="fa-solid fa-cart-shopping "></i>
+        </div>
+      </div>
+      
+      </div>
+      
+    </div>
+  </div>
+</div>
+</div>
+    
+      <div class="nav-container"> 
+      <div class="my-navbar mt-4 rounded-4 d-flex justify-content-between  align-items-center">
+      <div class="logo-img ps-3">
+        <h1>sou<span>qp</span>lace</h1>
+      </div>
+      
+      <nav class="d-flex justify-content-between  align-items-center d-lg-flex d-none">
+
+        
+
+        <ul>
+          <li><a href="#landing">Home</a></li>
+          <li><a href="#section-1">Advantages</a></li>
+          <li><a href="#brands-section">Products</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+
+        <div class="icons pe-5">
+          <i class="fa-solid fa-user "  data-bs-target="#exampleModalToggle" data-bs-toggle="modal"></i>
+          <i class="fa-solid fa-cart-shopping "></i>
+        </div>
+
+       </nav>
+       <div class="mobile-toggaler d-lg-none me-3">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <i class="fa-solid fa-bars fa-2x"></i>
+        </a>
+    </div>
+       </div>
+      </div>
+    
+
+      <div class="container pt-5" id="landing">
+      <div class="content pt-5">
+        <div class="row pt-5">
+            <div class="col-lg-6 text-side ">
+              <h1>SOU<span>qp</span>LACE</h1>
+              <h3>Find The Best Shoes Style For You</h3>
+              <p>It is an item of clothing. Shoes come in pairs,
+                 with one shoe for each foot. There are many different 
+                 types of shoes. Athletic shoes, for example, 
+                 </p>
+                 <div class="btn btn-outline-success">SHOP NOW</div>
+            </div>
+            <div class="col-lg-6 img-side">
+                <img src="./images/nike.png" class="img-fluid header-img">
+            </div>
+        </div>
+
+        
+        
+      </div>
+    </div>
+
+  </header>
+
+
+
+<!-- ------------------------------------------------ -->
+
+
+
+
+<!-- ------------------------------------------------ -->
+
+
+  
+  <!-- ---------- -->
+
+  <!-- Seaction 1 -->
+  <section class="section-1 pb-5" id="section-1">
+    <div class="container pt-5 text-center">
+        <h1>Our <span>Advantages</span></h1>
+        <div class="row d-flex justify-content-between align-items-center pt-5 g-5 addvantages">
+          <div class="col-lg-3 my-adven">
+            <div class="advant"><i class="fa-solid fa-truck-fast"></i></div>
+            <h3>Standard Delivery</h3>
+            <p>Delivering In 3 Days</p>
+          </div>
+          <div class="col-lg-3 my-adven">
+            <div class="advant"><i class="fa-solid fa-boxes-packing"></i></div>
+            <h3>Free Return</h3>
+            <p>Money Back Guarantee</p>
+          </div>
+          <div class="col-lg-3 my-adven">
+            <div class="advant"><i class="fa-solid fa-hourglass-start"></i></div>
+            <h3>24/24 Support</h3>
+            <p>We Support Only 24h</p>
+          </div>
+          <div class="col-lg-3 my-adven">
+            <div class="advant"><i class="fa-solid fa-gift"></i></div>
+            <h3>Gift Card</h3>
+            <p>All Over Order 100$</p>
+          </div>
+        </div>
+
+
+        <div class="row mt-5 pt-5 g-5 pb-5">
+          <div class="col-lg-4 text-box pt-5 text-lg-start text-md-center">
+            <h1>Best <span>Seller</span> Product</h1>
+            <p class="mt-4 mb-4">Find our best selling items found here are the best sellers for no reason just kidding</p>
+            <div class="my-btn mt-5">View all</div>
+          </div>
+
+          <div class="slide-container col-lg-8">
+          
+            <ul class="child-slide row ">
+              <li class="card12 col-4" style="background-image: url(./bgM1.jpg)">
+                <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                <div class="hide-content">
+                  <div class="quick-btn">Quick View</div>
+                  <p>Sample Shoes</p>
+                  <h4>Size <span>38 , 40</span></h4>
+                  <h5><span><del>$650.00</del></span> <span>$500.00</span></h5>
+                <div class="heart-inside"><i class="fa-regular fa-heart"></i></div>
+                </div>
+              </li>
+              <li class="card12 col-4" style="background-image: url(./bgM2.jpg)">
+                  <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                  <div class="hide-content">
+                    <div class="quick-btn">Quick View</div>
+                    <p>Sample Shoes</p>
+                    <h4>Size <span>38 , 40</span></h4>
+                    <h5><span><del>$650.00</del></span> <span>$500.00</span></h5>
+                  <div class="heart-inside"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+
+              </li>
+              <li class="card12 col-4" style="background-image: url(./bgM3.png)">
+                
+                  <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                  <div class="hide-content">
+                    <div class="quick-btn">Quick View</div>
+                    <p>Sample Shoes</p>
+                    <h4>Size <span>38 , 40</span></h4>
+                    <h5><span><del>$650.00</del></span> <span>$500.00</span></h5>
+                  <div class="heart-inside"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+
+              </li>
+              <li class="card12 col-4" style="background-image: url(./bgM4.jpg)">
+                
+                  <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                  <div class="hide-content">
+                    <div class="ctn">
+                      <div class="quick-btn">Quick View</div>
+                    <p>TEST</p>
+                    <h4>Size <span>38 , 40</span></h4>
+                    <h5><span><del>$650.00</del></span> <span>$500.00</span></h5>
+                  <div class="heart-inside"><i class="fa-regular fa-heart"></i></div>
+                    </div>
+                    
+                  </div>
+
+              </li>
+              <li class="card12 col-4" style="background-image: url(./bgM5.png)">
+                
+                  <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                  <div class="hide-content">
+                    <div class="quick-btn">Quick View</div>
+                    <p>Sample Shoes</p>
+                    <h4>Size <span>38 , 40</span></h4>
+                    <h5><span><del>$650.00</del></span> <span>$500.00</span></h5>
+                  <div class="heart-inside"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+
+              </li>
+              <li class="card12 col-4" style="background-image: url(./bgM6.jpg)">
+                
+                  <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                  <div class="hide-content">
+                    <div class="quick-btn">Quick View</div>
+                    <p>Sample Shoes</p>
+                    <h4>Size <span>38 , 40</span></h4>
+                    <h5><span><del>$650.00</del></span> <span>$500.00</span></h5>
+                  <div class="heart-inside"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+
+              </li>
+            </ul>
+            
+            <div class="control-btns mt-5">
+              <div id="left" class="icon">
+              <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div id="right" class="icon">
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            </div>
+            
+     
+          </div>
+
+
+        </div>
+    </div>
+  </section>
+  <!-- ---------- -->
+
+  <!-- brands -->
+  <section class="brands-section text-center pb-5" id="brands-section">
+
+    <div class="container pt-5 text-center" >
+      <h1>Our <span>Products</span></h1>
+      <div class="companies d-flex justify-content-between  align-items-center mt-5" >
+        <p class="company-shoes-name">Adidas</p>
+        <p class="company-shoes-name">Nike</p>
+        <p class="company-shoes-name">New Balance</p>
+        <p class="company-shoes-name">Puma</p>
+      </div>
+
+      <div class="products row mt-2 g-4 p-3" id="products-box">
+        
+        <div class="col-lg-3 col-md-6 pb-2 pt-2 company-box">
+          <div class="img">
+            <img src="./images/pic4.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="text mt-2">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Nike Product</p>
+            <h5><span><del>$647.99</del></span> <span>$599.99</span></h5>
+          </div>
+        </div>
+     
+        <div class="col-lg-3 col-md-6 pb-2 pt-2 company-box">
+          <div class="img ">
+            <img src="./images/newBalance1.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="text mt-2">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>New Balance Product</p>
+            <h5><span><del>$647.99</del></span> <span>$599.99</span></h5>
+          </div>
+        </div>
+     
+
+      </div>
+    </div>
+
+  </section>
+  <!-- ------- -->
+
+  <section id="test">
+     <div class="container pt-5 ">
+        <div class="row">
+          <div class="col-lg-6 col-12 text-deal">
+            <h1>The Deal Of The Month</h1>
+            <p>There is every month a gift for our clinet it's shoes for them with ther tasty 
+              you can get yours after the end of this counter
+            </p>
+            <div class="d-flex justify-content-around  align-items-center">
+              <div class="days">
+                <h1 class="timer"></h1>
+                <p>Days</p>
+              </div>
+              <div class="Hours">
+                <h1 class="timer"></h1>
+                <p>Hour</p>
+              </div>
+              <div class="min">
+                <h1 class="timer"></h1>
+                <p>Min</p>
+              </div>
+            </div>
+            <div class="btn" type="button" data-bs-toggle="modal" data-bs-target="#geiIt">Get It</div>
+            <!--  -->
+            
+
+<!-- Modal -->
+            <div class="modal fade counter-works " id="geiIt" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  
+                  <div class="modal-body">
+                    <div class="numbers">
+                      <div class="days">
+                        <h1 class="timer2"></h1>
+                        <p>Days</p>
+                      </div>
+                      <div class="Hours">
+                        <h1 class="timer2"></h1>
+                        <p>Hour</p>
+                      </div>
+                      <div class="min">
+                        <h1 class="timer2"></h1>
+                        <p>Min</p>
+                      </div>
+                    </div>
+                    <div class="timer-text d-flex justify-content-center">
+                      <p>Please Wait For The Timer To Finish</p>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <!--  -->
+          </div>
+
+          <div class="col-lg-6 col-12 deal-img-content">
+            <div class="pic-deal w-100">
+            <img src="bgM1.jpg" class="img-fluid w-100" alt="">
+            </div>
+          </div>
+
+        </div>
+     </div>
+  </section>
+
+  <section class="what-say p-5" id="reviews">
+      <div class="  p-4">
+          <div class="head">
+            <h1 class="mt-4">What People Say <span>About Us</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat enim ipsum unde.</p>
+          </div>
+      
+
+<!-- ---------------------------------------- -->
+  <div class="wrapper mt-5 pt-5 ">
+
+  <ul class="people" id="people-review">
+      <li class="card1">
+         <div>
+          <img src="people/p2.jpg">
+         <h1>Olivia Davis</h1>
+         <p>I purchased a pair of these heels for a special occasion, 
+          and I was pleasantly surprised by how comfortable they were. The cushioned insole.</p>
+        </div>
+      </li>
+      <li class="card1">
+        <div>
+          <img src="people/p1.jpg">
+         <h1>Alex Thompson</h1>
+         <p>I recently purchased a pair of running shoes from this brand
+          , and I'm thrilled with my choice.</p>
+        </div>
+      </li>
+      <li class="card1">
+        <div>
+          <img src="people/p4.jpg">
+         <h1>Emily Anderson</h1>
+         <p>I love these shoes! They are not only stylish but also
+          extremely versatile. I can wear them to work,</p>
+        </div>
+      </li>
+      <li class="card1">
+        <div>
+          <img src="people/p3.jpg">
+         <h1>James Rodriguez</h1>
+         <p>I play basketball regularly, and these shoes have been a game-changer for me.</p>
+        </div>
+      </li>
+      <li class="card1">
+        <div>
+          <img src="people/p3.jpeg">
+         <h1>Sarah Martinez</h1>
+         <p>These hiking boots are absolutely fantastic. I recently went on a challenging hike, 
+          and these boots held up beautifully.</p>
+        </div>
+      </li>
+      <li class="card1">
+        <div>
+          <img src="people/p5.jpg">
+         <h1>Daniel Scott</h1>
+         <p>I've been using these shoes for my daily gym workouts, and they have exceeded my expectations.
+          They are lightweight,</p>
+        </div>
+      </li>
+      
+  </ul>
+  
+      </div>
+                
+      </div>
+  </section>
+
+  <!-- ---------------------------------------- -->  
+  <footer id="footer">
+      <div class="container  pt-5">
+          <div>
+            <div class="row ">
+              <div class="col-lg-6 col-12 row  mt-5 d-flex justify-content-around align-items-center">
+                <div>
+                  <h1>SOUQPLACE</h1>
+                  <p>Contact us</p>
+                  <div class="icons w-50  d-flex justify-content-between align-items-center">
+                    <a target="_blank" href="https://www.linkedin.com/in/mohamed-belalia-0b886a229/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a target="_blank" href="https://github.com/mohamedBelalia"><i class="fa-brands fa-github"></i></a>
+                    <a target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a target="_blank" href="https://wa.me/0619984150"><i class="fa-brands fa-whatsapp"></i></a>
+                  </div>
+                </div>
+                <div class="mt-5">
+                  <h2>ABOUT SOUQPLACE</h2>
+                  <ul class="list-group">
+                    <li class="list-group-item">About us</li>
+                    <li class="list-group-item">Customre Reviews</li>
+                    <li class="list-group-item">Careers</li>
+                    <li class="list-group-item">Terms & Conditions</li>
+                    <li class="list-group-item">Privacy Policy</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-6 col-12 row  mt-5 d-flex justify-content-around align-items-center">
+                <div class="mt-4 ">
+                  <h2>CUSTOMER</h2>
+                  <ul class="list-group">
+                    <li class="list-group-item">Contact us</li>
+                    <li class="list-group-item">Customre Store</li>
+                    <li class="list-group-item">Delivery</li>
+                    <li class="list-group-item">Acount</li>
+                  </ul>
+                </div>
+                <div class="mt-5">
+                  <h2>CONNECT</h2>
+                  <ul class="list-group">
+                    <li class="list-group-item"  data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Sing up</li>
+                    <li class="list-group-item"  data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Login</li>
+                    
+                  </ul>
+                  <div class="mt-5  d-flex justify-content-around align-items-center input-field">
+                    <input type="email" placeholder="Enter your email">
+                    <button>Join</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="text-center">
+              <p>	&#169; created by mohamed belalia</p>
+            </div>
+          </div>
+      </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="./js/all.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
